@@ -87,11 +87,11 @@ a{
 	color:#000;
 }
 a:hover{
-	color:red;
+	color:gray;
 }
 a:active{
-	color:green;
+	color:none;
 }
-a: visited{
-	color:yellow;
+a:visited{
+	color:black;
 }
