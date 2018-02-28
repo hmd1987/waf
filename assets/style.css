@@ -6,8 +6,8 @@
 */
 
 body{
-	background-color:#f4f4f4;
-	color:#555555;
+	background-color:lightblue;
+	color:black;
 	font-family: Bookman Old Style, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:normal;
@@ -15,11 +15,11 @@ body{
 	margin:0;
 }
 
-#main-header {
-	text-align: center;
-	background-color: black;
+#main-header{
+	text-align:center;
+	background-color:black;
 	color: white;
-	padding:10px;
+	padding:1px;
 }
 
 #main-footer {
@@ -33,6 +33,24 @@ body{
 .container{
 	width:80%;
 	margin:5px 10px;
+}
+
+.button{
+	background-color:#333;
+	color: #fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:white;
+}
+/*
+clear any floats above it
+*/
+.clr{
+	clear:both;
 }
 
 .box-1{
@@ -82,16 +100,137 @@ body{
 	padding:0;
 	list-style:square;
 }
+
+.categories li{
+	padding-bottom:8px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('../assets/images/WinnersButton_2012.jpg');
+	margin-left:500px;
+}
+
 a{
 	text-decoration: none;
 	color:#000;
 }
 a:hover{
-	color:gray;
+	color:blue;
 }
 a:active{
-	color:none;
+	color:grey;
 }
 a:visited{
 	color:black;
 }
+
+.my-form{
+	padding:20px;
+}
+
+.form-group{
+	padding-bottom:15px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+/*because there are 3 blocks make the width divisible by 3
+*/
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+.main-block{
+	float:center;
+	width:70%;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.sidebar{
+	float:center;
+	width:30%;
+	background-color:darkgray;
+	color:white;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+	background-image:url('../assets/images/HakeemJerseyPicByJordanAsinas.jpg');
+	background-repeat:no-repeat;
+	background-position:100px 200px;
+	background-position:center right;
+}
+
+.p-box h1{
+	position: absolute;
+	top:100px;
+	left:200px;
+}
+
+.p-box h2{
+	position:absolute;
+	bottom:40px;
+	right:100px;
+}
+
+.fix-me{
+	position:fixed;
+	top:400px;
+}
+
+.my-list li:first-child{
+	background:red;
+}
+.my-list li:last-child{
+	background:blue;
+}
+.my-list li:nth-child(5){
+	background:yellow;
+}
+.my-list li:nth-child(even){
+	background:grey;
+}
+.hakeem{
+	position:absolute;
+	margin-left:376px;
+}
+.index-text{
+	margin-top:250px;
+	margin-left:25px;
+}
+.badge1{
+	position:absolute;
+	margin-top:500px;
+	margin-left:1000px;
+	
+}
+.badge2{
+	position:absolute;
+	margin-top:500px;
+	margin-left:750px;
+	
+}
+
+
+
+
+
