@@ -6,7 +6,8 @@
 */
 
 body{
-	background-color:lightblue;
+	background-image:url(../assets/images/bg.jpeg);
+	background-size:cover;
 	color:black;
 	font-family: Bookman Old Style, Arial, Helvetica, sans-serif;
 	font-size:18px;
@@ -18,95 +19,20 @@ body{
 #main-header{
 	text-align:center;
 	background-color:black;
-	color: white;
+	color: lightblue;
 	padding:1px;
 }
 
 #main-footer {
+	position:absolute bottom;
+	margin-top:850px;
 	text-align: center;
 	font-size:18px;
 	background-color: black;
-	color: white;
+	color:lightblue;
 	padding:10px;
 }
 
-.container{
-	width:80%;
-	margin:5px 10px;
-}
-
-.button{
-	background-color:#333;
-	color: #fff;
-	padding:10px 15px;
-	border:none;
-}
-
-.button:hover{
-	background:red;
-	color:white;
-}
-/*
-clear any floats above it
-*/
-.clr{
-	clear:both;
-}
-
-.box-1{
-	background-color:#333;
-	color: #fff;
-	border-top:5px red solid;
-	border-right: 5px red solid;
-	border-bottom: 5px red solid;
-	border-left:5px red solid;
-	/*same as above*/
-	border: 5px red solid;
-	border-bottom-width:10px;
-	border-top-style: dotted;
-
-	margin-top:20px;
-	margin:20px 0;
-}
-
-/*
-.box-1{
-	font-family: Times New Roman;
-	font-weight:800;
-	font-style:italic;
-	text-decoration:underline;
-	text-transform:uppercase;
-	letter-spacing: 0.2em;
-	word-spacing: 1em;
-}
-*/
-
-.box-2{
-	border:3px dotted #ccc;
-	padding:20px;
-	margin:20px 0;
-}
-
-.categories{
-	border:1px #ccc solid;
-	padding:10px;
-	border-radius:15px;
-}
-
-.categories h2{
-	text-align:center;
-}
-.categories ul{
-	padding:0;
-	list-style:square;
-}
-
-.categories li{
-	padding-bottom:8px;
-	border-bottom:dotted 1px #333;
-	list-style-image: url('../assets/images/WinnersButton_2012.jpg');
-	margin-left:500px;
-}
 
 a{
 	text-decoration: none;
@@ -122,93 +48,8 @@ a:visited{
 	color:black;
 }
 
-.my-form{
-	padding:20px;
-}
 
-.form-group{
-	padding-bottom:15px;
-}
 
-.my-form .form-group{
-	padding-bottom:15px;
-}
-
-.my-form label{
-	display: block;
-}
-
-.my-form input[type="text"], .my-form textarea{
-	padding:8px;
-	width:100%;
-}
-/*because there are 3 blocks make the width divisible by 3
-*/
-.block{
-	float:left;
-	width:33.3%;
-	border:1px solid #ccc;
-	padding:10px;
-	box-sizing:border-box;
-}
-
-.main-block{
-	float:center;
-	width:70%;
-	padding:15px;
-	box-sizing: border-box;
-}
-
-.sidebar{
-	float:center;
-	width:30%;
-	background-color:darkgray;
-	color:white;
-	padding:15px;
-	box-sizing: border-box;
-}
-
-.p-box{
-	width:800px;
-	height:500px;
-	border:1px solid #000;
-	margin-top:30px;
-	position:relative;
-	background-image:url('../assets/images/HakeemJerseyPicByJordanAsinas.jpg');
-	background-repeat:no-repeat;
-	background-position:100px 200px;
-	background-position:center right;
-}
-
-.p-box h1{
-	position: absolute;
-	top:100px;
-	left:200px;
-}
-
-.p-box h2{
-	position:absolute;
-	bottom:40px;
-	right:100px;
-}
-
-.fix-me{
-	position:fixed;
-	top:400px;
-}
-
-.my-list li:first-child{
-	background:red;
-}
-.my-list li:last-child{
-	background:blue;
-}
-.my-list li:nth-child(5){
-	background:yellow;
-}
-.my-list li:nth-child(even){
-	background:grey;
-}
 .hakeem{
 	position:absolute;
 	margin-left:376px;
@@ -220,16 +61,50 @@ a:visited{
 .badge1{
 	position:absolute;
 	margin-top:500px;
-	margin-left:1000px;
+	margin-left:1100px;
 	
 }
 .badge2{
 	position:absolute;
 	margin-top:500px;
-	margin-left:750px;
+	margin-left:900px;
 	
 }
-
+.redbird1{
+	position: absolute;
+	margin-top:0px;
+	margin-left:20px;
+}
+.redbird2{
+	position:absolute;
+	margin-top:-28px;
+	margin-left:360px;
+}
+.self1{
+	position:absolute;
+	margin-top:300px;
+	margin-left:20px;
+}
+.self2{
+	position:absolute;
+	margin-top:274px;
+	margin-left:360px;
+}
+.self3{
+	position:absolute;
+	margin-top:220px;
+	margin-left:700px;
+}
+.self4{
+	position:absolute;
+	margin-top:520px;
+	margin-left:20px;
+}
+.finaltext{
+	position:absolute;
+	margin-top:735px;
+	margin-left:20px;
+}
 
 
 
