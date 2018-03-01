@@ -16,14 +16,14 @@ body{
 	padding:0px;
 	display:inline-block;
 }
-.nav {
+.header {
 	width:1880px;
 	padding:0;
 	margin:none;
 	position:fixed;
-	background-color:#15549b;
+	background-color:lightblue;
 }
-#nav {
+#header {
 	height:15px;
 	position:fixed;
 	top:0px;
@@ -31,7 +31,7 @@ body{
 	z-index:999;
 	width:100%;
 }
-#nav ul{
+#header ul{
 	height:0px;
 	position:fixed;
 	list-style: none;
@@ -40,7 +40,7 @@ body{
 	padding:0px;
 	margin:none;
 }
-#nav li{
+#header li{
 	height:0px;
 	position:fixed;
 	list-style: none;
@@ -50,7 +50,7 @@ body{
 	margin:none;
 }
 #main-footer {
-	float:bottom;
+	width:1349px;
 	margin-top:850px;
 	text-align:center;
 	font-size:18px;
