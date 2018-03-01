@@ -5,7 +5,8 @@
 }
 */
 body{
-	background-image:url(../assets/images/bg3.jpg);
+	position:relative;
+	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/images/bg3.jpg);
 	background-size:cover;
 	color:black;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
@@ -21,7 +22,8 @@ body{
 	padding:0;
 	margin:none;
 	position:fixed;
-	background-color:lightblue;
+	background-color:#97c4f7;
+	padding:none;
 }
 #header {
 	height:15px;
@@ -55,7 +57,7 @@ body{
 	text-align:center;
 	font-size:18px;
 	background-color:black;
-	color:lightblue;
+	color:#b2d4fa;
 	padding:0px;
 }
 a{
@@ -71,9 +73,43 @@ a:active{
 a:visited{
 	color:#1b3954;
 }
+/*PARAGRAPH 1 & 2 ARE ON THE INDEX PAGE */
 .paragraph1 {
 	padding:10px;
+	float:left;
+	max-width:600px;
+	margin: 0 auto;
+	border:black;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:black;
 }
 .paragraph2 {
 	padding:10px;
+	float:left;
+	max-width:600px;
+	margin: 0 auto;
+	border:black;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+/*VCR IS ON THE VIDEOS PAGE */
+.vcr {
+	padding:10px;
+	margin-left:350px;
+}
+.discography ul{
+	padding:10px;
+	list-style: none;
+	display:inline-block;
+	text-decoration:none;
+}
+
+.discography li{
+	padding:10px;
+	list-style: none;
+	display:inline-block;
+	text-decoration:none;
 }
