@@ -4,108 +4,70 @@
 	padding: 0;
 }
 */
-
 body{
-	background-image:url(../assets/images/bg.jpeg);
+	background-image:url(../assets/images/bg3.jpg);
 	background-size:cover;
 	color:black;
-	font-family: Bookman Old Style, Arial, Helvetica, sans-serif;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:normal;
 	line-height:1.6em;
 	margin:0;
+	padding:0px;
 }
-
-#main-header{
-	text-align:center;
-	background-color:black;
-	color: lightblue;
-	padding:1px;
+.nav {
+	width:1880px;
+	padding:0;
+	margin:none;
+	position:fixed;
+	background-color:#15549b;
 }
-
+#nav {
+	height:15px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:999;
+	width:100%;
+}
+#nav ul{
+	height:0px;
+	position:fixed;
+	list-style: none;
+	display:inline-block;
+	text-decoration:none
+	padding:0px;
+	margin:none;
+}
+#nav li{
+	height:0px;
+	position:fixed;
+	list-style: none;
+	display:inline-block;
+	text-decoration:none;
+	padding:0px;
+	margin:none;
+}
 #main-footer {
-	position:absolute bottom;
+	float:bottom;
 	margin-top:850px;
-	text-align: center;
+	text-align:center;
 	font-size:18px;
-	background-color: black;
+	background-color:black;
 	color:lightblue;
-	padding:10px;
+	padding:0px;
 }
-
-
 a{
 	text-decoration: none;
 	color:#000;
 }
 a:hover{
-	color:blue;
+	color:#18314d;
 }
 a:active{
 	color:grey;
 }
 a:visited{
-	color:black;
+	color:#1b3954;
 }
-
-
-
-.hakeem{
-	position:absolute;
-	margin-left:376px;
-}
-.index-text{
-	margin-top:250px;
-	margin-left:25px;
-}
-.badge1{
-	position:absolute;
-	margin-top:500px;
-	margin-left:1100px;
-	
-}
-.badge2{
-	position:absolute;
-	margin-top:500px;
-	margin-left:900px;
-	
-}
-.redbird1{
-	position: absolute;
-	margin-top:0px;
-	margin-left:20px;
-}
-.redbird2{
-	position:absolute;
-	margin-top:-28px;
-	margin-left:360px;
-}
-.self1{
-	position:absolute;
-	margin-top:300px;
-	margin-left:20px;
-}
-.self2{
-	position:absolute;
-	margin-top:274px;
-	margin-left:360px;
-}
-.self3{
-	position:absolute;
-	margin-top:220px;
-	margin-left:700px;
-}
-.self4{
-	position:absolute;
-	margin-top:520px;
-	margin-left:20px;
-}
-.finaltext{
-	position:absolute;
-	margin-top:735px;
-	margin-left:20px;
-}
-
-
-
 
