@@ -71,4 +71,9 @@ a:active{
 a:visited{
 	color:#1b3954;
 }
-
+.paragraph1 {
+	padding:10px;
+}
+.paragraph2 {
+	padding:10px;
+}
