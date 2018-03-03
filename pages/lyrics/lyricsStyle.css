@@ -1,18 +1,17 @@
-/* the asterisk selects everything and will zero out all padding*/
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
 	position:relative;
-	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/images/414.png);
+	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/images/404.png);
 	background-size:cover;
 	color:black;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:normal;
 	line-height:1.6em;
-	top-margin:10px;
+	margin:0;
 	padding:0px;
 	display:inline-block;
 }
@@ -72,24 +71,20 @@ a:active{
 a:visited{
 	color:#1b3954;
 }
-/*PARAGRAPH 1 & 2 ARE ON THE INDEX PAGE */
-.paragraph1 {
+.lyrics1 {
+	padding:60px;
+	margin-top:10px;
 	float:left;
-	padding:11px;
+	color:black;
+	font-family: Times New Roman, Book Antiqua, Arial, Helvetica, sans-serif;
 	max-width:600px;
 	margin: 0 auto;
+	border:black;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	border:black;
 }
-
-/*VCR IS ON THE VIDEOS PAGE */
-.vcr {
-	padding:10px;
-	margin-left:350px;
-}
-/*DISCOGRAPHY PAGE */
 .discography ul{
 	padding:10px;
 	list-style: none;
