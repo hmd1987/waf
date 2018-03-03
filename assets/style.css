@@ -73,9 +73,19 @@ a:visited{
 	color:#1b3954;
 }
 /*PARAGRAPH 1 & 2 ARE ON THE INDEX PAGE */
-.paragraph1 {
+.paragraph1{
 	float:left;
 	padding:11px;
+	max-width:600px;
+	margin: 0 auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:black;
+}
+.achievements{
+	float:left;
+	padding:15px;
 	max-width:600px;
 	margin: 0 auto;
 	-webkit-box-sizing:border-box;
