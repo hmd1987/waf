@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	position:relative;
+	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/WDAEpics/lampshade.jpg);
+	background-size:95%;
+	background-repeat:repeat;
+	color:black;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	line-height:1.6em;
+	margin:0;
+	padding:0px;
+	display:inline-block;
+}
+.header {
+	width:1880px;
+	padding:0;
+	margin:none;
+	position:fixed;
+	background-color:#1b3954;
+	padding:none;
+}
+#header {
+	height:15px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:999;
+	width:100%;
+}
+#header ul{
+	height:0px;
+	position:fixed;
+	list-style: none;
+	display:inline-block;
+	text-decoration:none
+	padding:0px;
+	margin:none;
+}
+#header li{
+	height:0px;
+	position:fixed;
+	list-style: none;
+	display:inline-block;
+	text-decoration:none;
+	padding:0px;
+	margin:none;
+}
+#main-footer {
+	width:1349px;
+	margin-top:395px;
+	text-align:center;
+	font-size:18px;
+	background-color:black;
+	color:#b2d4fa;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color:#63c1c4;
+}
+a:hover{
+	color:#fae8e8;
+}
+a: active{
+	color:#63c1c4;
+}
+a: visited{
+	color:#0d8af3;
+}
+.tracklisting{
+	padding:10px;
+	color:#63c1c4;
+	font-size:22px;
+}
+.artwork1{
+	padding:10px;
+}
+.artwork2{
+	padding:10px;
+}

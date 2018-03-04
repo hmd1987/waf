@@ -4,8 +4,8 @@
 }
 body{
 	position:relative;
-	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/images/404.png);
-	background-size:cover;
+	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/WDAEpics/locker.jpg);
+	background-size:55%;
 	color:black;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
@@ -20,7 +20,7 @@ body{
 	padding:0;
 	margin:none;
 	position:fixed;
-	background-color:#97c4f7;
+	background-color:#1b3954;
 	padding:none;
 }
 #header {
@@ -51,7 +51,7 @@ body{
 }
 #main-footer {
 	width:1349px;
-	margin-top:850px;
+	margin-top:200px;
 	text-align:center;
 	font-size:18px;
 	background-color:black;
@@ -63,20 +63,22 @@ a{
 	color:#000;
 }
 a:hover{
-	color:#18314d;
+	color:#fae8e8;
 }
 a:active{
-	color:grey;
+	color:#63c1c4;
 }
 a:visited{
-	color:#1b3954;
+	color:#0d8af3;
 }
 .lyrics1 {
-	padding:60px;
-	margin-top:10px;
-	float:left;
+	padding:55px;
+	margin-top:15px;
+	margin-left:10px;
+	float:center;
 	color:black;
 	font-family: Times New Roman, Book Antiqua, Arial, Helvetica, sans-serif;
+	font-size:21px;
 	max-width:600px;
 	margin: 0 auto;
 	border:black;
@@ -86,15 +88,20 @@ a:visited{
 	border:black;
 }
 .discography ul{
-	padding:10px;
+	padding:15px;
 	list-style: none;
 	display:inline-block;
 	text-decoration:none;
 }
 
 .discography li{
-	padding:10px;
+	padding:15px;
 	list-style: none;
 	display:inline-block;
 	text-decoration:none;
+}
+.art{
+	float:left;
+	margin-top:75px;
+	margin-left:10px;
 }

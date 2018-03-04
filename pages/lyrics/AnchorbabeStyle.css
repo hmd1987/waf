@@ -1,18 +1,18 @@
-/* the asterisk selects everything and will zero out all padding*/
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
 	position:relative;
-	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/images/414.png);
-	background-size:cover;
+	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/WDAEpics/dress.jpg);
+	float:right;
+	background-size:53%;
 	color:black;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:normal;
 	line-height:1.6em;
-	top-margin:10px;
+	margin:0;
 	padding:0px;
 	display:inline-block;
 }
@@ -52,7 +52,7 @@ body{
 }
 #main-footer {
 	width:1349px;
-	margin-top:850px;
+	margin-top:40px;
 	text-align:center;
 	font-size:18px;
 	background-color:black;
@@ -61,56 +61,32 @@ body{
 }
 a{
 	text-decoration: none;
-	color:#000;
+	color:#4199e4;
 }
 a:hover{
 	color:#fae8e8;
 }
-a:active{
+a: active{
 	color:#63c1c4;
 }
-a:visited{
+a: visited{
 	color:#0d8af3;
 }
-/*PARAGRAPH 1 & 2 ARE ON THE INDEX PAGE */
-.paragraph1{
-	float:left;
-	max-width:800px;
-	padding-left:190px;
-	padding-top:35px;
-	padding-bottom:0;
+.lyrics2 {
+	padding:115px;
+	color:#f5e208;
+	font-size:22px;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	max-width:600px;
+	margin: 0 auto;
+	border:black;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	border:black;
 }
-.achievements{
+.art{
 	float:left;
-	max-width:700px;
-	padding-top:35px;
-	padding-left:35px;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	border:black;
-}
-
-/*VCR IS ON THE VIDEOS PAGE */
-.vcr {
-	padding:10px;
-	margin-left:350px;
-}
-/*DISCOGRAPHY PAGE */
-.discography ul{
-	padding:15px;
-	list-style: none;
-	display:inline-block;
-	text-decoration:none;
-}
-
-.discography li{
-	padding:15px;
-	list-style: none;
-	display:inline-block;
-	text-decoration:none;
+	margin-top:75px;
+	margin-left:10px;
 }
