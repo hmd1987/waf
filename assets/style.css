@@ -59,7 +59,7 @@ body{
 	color:#b2d4fa;
 	padding:0px;
 }
-a{
+.header a{
 	text-decoration: none;
 	color:#63c1c4;
 }
@@ -116,4 +116,10 @@ a:active{
 	list-style: none;
 	display:inline-block;
 	text-decoration:none;
+}
+.discography a:hover{
+	color:#63c1c4;
+}
+.discography a{
+	color:#1b3954;;
 }
