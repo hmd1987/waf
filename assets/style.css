@@ -61,16 +61,13 @@ body{
 }
 a{
 	text-decoration: none;
-	color:#000;
+	color:#63c1c4;
 }
 a:hover{
 	color:#fae8e8;
 }
 a:active{
-	color:#63c1c4;
-}
-a:visited{
-	color:#0d8af3;
+	color:#1b3954;
 }
 /*PARAGRAPH 1 & 2 ARE ON THE INDEX PAGE */
 .paragraph1{
@@ -93,6 +90,12 @@ a:visited{
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	border:black;
+}
+.achievements a{
+	color:#18314d;
+}
+.achievements a:hover{
+	color:#63c1c4;
 }
 
 /*VCR IS ON THE VIDEOS PAGE */

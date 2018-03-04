@@ -4,10 +4,9 @@
 }
 body{
 	position:relative;
-	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/WDAEpics/lampshade.jpg);
-	background-size:95%;
-	background-repeat:repeat;
-	color:black;
+	background-image:url(C:Users/Christopher/HenryDillard/waf/assets/images/GradientOrange2.jpg);
+	background-size:cover;
+	color:white;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:normal;
@@ -52,7 +51,7 @@ body{
 }
 #main-footer {
 	width:1349px;
-	margin-top:395px;
+	margin-top:100px;
 	text-align:center;
 	font-size:18px;
 	background-color:black;
@@ -67,19 +66,23 @@ a:hover{
 	color:#fae8e8;
 }
 a: active{
-	color:#63c1c4;
-}
-a: visited{
-	color:#0d8af3;
+	color:#1b3954;
 }
 .tracklisting{
-	padding:10px;
-	color:#63c1c4;
+	color:#1b3954;
 	font-size:22px;
+	margin-left:530px;
+}
+.tracklisting a{
+	color:#1b3954;
+}
+.tracklisting a:hover{
+	color:#fae8e8;
 }
 .artwork1{
-	padding:10px;
+	margin-left:450px;
+
 }
 .artwork2{
-	padding:10px;
+	margin-left:450px;
 }
