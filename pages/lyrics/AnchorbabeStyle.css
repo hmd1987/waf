@@ -70,12 +70,13 @@ a: active{
 	color:#63c1c4;
 }
 .lyrics2 {
-	padding:115px;
-	color:#f5e208;
+	padding:55px;
+	color:white;
 	font-size:22px;
+	margin-top:15px;
+	margin-left:425px;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	max-width:600px;
-	margin: 0 auto;
 	border:black;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;

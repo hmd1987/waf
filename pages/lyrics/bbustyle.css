@@ -71,16 +71,14 @@ a:active{
 a:visited{
 	color:#0d8af3;
 }
-.lyrics1 {
+.lyrics1{
 	padding:55px;
 	margin-top:15px;
-	margin-left:10px;
-	float:center;
+	margin-left:425px;
 	color:black;
 	font-family: Times New Roman, Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:21px;
 	max-width:600px;
-	margin: 0 auto;
 	border:black;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
