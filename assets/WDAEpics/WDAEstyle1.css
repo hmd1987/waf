@@ -69,12 +69,12 @@ a: active{
 	color:#1b3954;
 }
 .tracklisting{
-	color:#1b3954;
+	color:black;
 	font-size:22px;
 	margin-left:530px;
 }
 .tracklisting a{
-	color:#1b3954;
+	color:black;
 }
 .tracklisting a:hover{
 	color:#fae8e8;
