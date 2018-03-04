@@ -1,0 +1,105 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+position:relative;
+background-image:url(C:Users/Christopher/HenryDillard/waf/assets/images/Spartans.jpg);
+float:right;
+background-size:65%;
+background-repeat:repeat;
+color:black;
+font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+font-size:18px;
+font-weight:normal;
+line-height:1.6em;
+margin:0;
+padding:0px;
+display:inline-block;
+}
+.header{
+width:1880px;
+padding:0;
+margin:none;
+position:fixed;
+background-color:#1b3954;
+padding:none;
+}
+#header{
+height:15px;
+position:fixed;
+top:0px;
+left:0px;
+z-index:999;
+width:100%;
+}
+#header ul{
+height:0px;
+position:fixed;
+list-style: none;
+display:inline-block;
+text-decoration:none
+padding:0px;
+margin:none;
+}
+#header li{
+height:0px;
+position:fixed;
+list-style: none;
+display:inline-block;
+text-decoration:none;
+padding:0px;
+margin:none;
+}
+#main-footer{
+float:left;
+width:1349px;
+margin-bottom:0px;
+text-align:center;
+font-size:18px;
+background-color:black;
+color:#b2d4fa;
+padding:0px;
+}
+a{
+text-decoration: none;
+color:#4199e4;
+}
+a:hover{
+	color:#fae8e8;
+}
+a: active{
+	color:#63c1c4;
+}
+.art{
+	float:left;
+	margin-top:75px;
+	margin-left:1px;
+	padding:10px;
+}
+.pic1{
+	float:right;
+	margin-top:75px;
+	margin-right:10px;
+}
+.pic2{
+	float:right;
+	margin-top:0px;
+	margin-left:500px;
+	padding:10px;
+}
+.lyrics3{
+	float:left;
+	padding:10px;
+	color:#ff0303;
+	font-size:22px;
+	margin-top:-1320px;
+	margin-left:300px;
+	font-family: Greek, Arial, Helvetica, sans-serif;
+	max-width:600px;
+	border:black;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:black;
+}

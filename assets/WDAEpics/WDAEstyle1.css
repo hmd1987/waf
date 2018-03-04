@@ -50,13 +50,13 @@ body{
 	margin:none;
 }
 #main-footer {
+	float:left;
 	width:1349px;
-	margin-top:100px;
+	margin-bottom:0px;
 	text-align:center;
 	font-size:18px;
 	background-color:black;
 	color:#b2d4fa;
-	padding:0px;
 }
 a{
 	text-decoration: none;
@@ -74,15 +74,23 @@ a: active{
 	margin-left:530px;
 }
 .tracklisting a{
+	float:center;
 	color:black;
 }
 .tracklisting a:hover{
 	color:#fae8e8;
 }
 .artwork1{
-	margin-left:450px;
+	float:left;
+	margin-top:-30px;
+	margin-right:5px;
+	margin-bottom:5px;
+	padding:10px;
 
 }
 .artwork2{
-	margin-left:450px;
+	float:right;
+	margin-top:-395px;
+	margin-left:50px;
+	padding:10px;
 }
