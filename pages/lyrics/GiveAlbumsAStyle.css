@@ -6,6 +6,7 @@ body{
 position:relative;
 background-color:#00341e;
 float:right;
+background-size:65%;
 background-repeat:repeat;
 color:black;
 font-family: Book Antiqua, Arial, Helvetica, sans-serif;
@@ -76,24 +77,13 @@ a: active{
 	margin-left:1px;
 	padding:10px;
 }
-.pic1{
-	float:right;
-	margin-top:75px;
-	margin-right:10px;
-}
-.pic2{
-	float:right;
-	margin-top:0px;
-	margin-left:500px;
-	padding:10px;
-}
-.lyrics3{
+.lyrics5{
 	float:left;
 	padding:10px;
 	color:white;
 	font-size:18px;
 	margin-top:50px;
-	margin-left:200px;
+	margin-left:100px;
 	font-family: Greek, Arial, Helvetica, sans-serif;
 	max-width:600px;
 	border:black;
@@ -101,9 +91,4 @@ a: active{
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	border:black;
-}
-.spartans{
-	float:left;
-	margin-top:-285px;
-	padding:14px;
 }

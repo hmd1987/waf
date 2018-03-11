@@ -4,9 +4,9 @@
 }
 body{
 	position:relative;
-	background-image:url(C:/Users/Christopher/HenryDillard/waf/assets/WDAEpics/dress.jpg);
+	background-color:#00341e;
 	float:right;
-	background-size:53%;
+	background-size:cover;
 	color:black;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
@@ -71,7 +71,7 @@ a: active{
 }
 .lyrics2 {
 	padding:55px;
-	color:#ffeb00;
+	color:white;
 	font-size:22px;
 	margin-top:15px;
 	margin-left:425px;

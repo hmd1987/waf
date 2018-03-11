@@ -4,9 +4,10 @@
 }
 body{
 	position:relative;
-	background-image:url(C:Users/Christopher/HenryDillard/waf/assets/images/GradientOrange2.jpg);
+	background-color:#00341e;
+	float:right;
 	background-size:cover;
-	color:white;
+	color:black;
 	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
 	font-size:18px;
 	font-weight:normal;
@@ -50,47 +51,40 @@ body{
 	margin:none;
 }
 #main-footer {
-	float:left;
 	width:1349px;
-	margin-top:30px;
+	margin-top:40px;
 	text-align:center;
 	font-size:18px;
 	background-color:black;
 	color:#b2d4fa;
+	padding:0px;
 }
 a{
 	text-decoration: none;
-	color:#63c1c4;
+	color:#4199e4;
 }
 a:hover{
 	color:#fae8e8;
 }
 a: active{
-	color:#1b3954;
+	color:#63c1c4;
 }
-.tracklisting{
-	color:black;
+.lyrics {
+	padding:20px;
+	color:white;
 	font-size:22px;
-	margin-left:530px;
+	margin-top:40px;
+	margin-left:350px;
+	font-family: Book Antiqua, Arial, Helvetica, sans-serif;
+	max-width:600px;
+	border:black;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:black;
 }
-.tracklisting a{
-	float:center;
-	color:black;
-}
-.tracklisting a:hover{
-	color:#fae8e8;
-}
-.artwork1{
+.art{
 	float:left;
-	margin-top:-30px;
-	margin-right:5px;
-	margin-bottom:5px;
-	padding:10px;
-
-}
-.artwork2{
-	float:right;
-	margin-top:-395px;
-	margin-left:50px;
-	padding:10px;
+	margin-top:75px;
+	margin-left:5px;
 }
